@@ -1,15 +1,15 @@
 # Curso-Objective-C
 
 ## Día 1
+* Clases y Objetos
+* Métodos
+* Herencia
 
-<ul>
-	<li>Clases y Objetos</li>
-	<li>Métodos</li>
-	<li>Herencia</li>
-</ul>
+**Ejercicio**: 
 
-<br>
-<strong></strong>Ejercicio</strong> 
+Crear una clase <code>Animal</code>, la cuál tendrá propiedades privadas y públicas. Crear una clase <code>Gato</code> que herede de <code>Animal</code> y que tenga varios métodos.
+
+Además, crear una clase <code>Perro</code> que herede de <code>Animal</code> y que tenga varios métodos.
 
 ## Día 2
 
