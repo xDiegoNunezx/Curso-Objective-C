@@ -35,10 +35,6 @@ A continuación se listan los recursos que se utilizaron para el desarrollo de e
 
 ## Libros 📚
 
-<ul>
-	<li>Objective-C: The Big Nerd Ranch Guide</li>
-	<ul>
-      <li>PDF</li>
-      <li><a href="https://fiunamedu-my.sharepoint.com/:b:/g/personal/diego_nunez_fi_unam_edu/Eca9ljkJG2pNmsugS5JElRsBJYQ1onZo0tP1NMJ5tT_Yhg?e=fiVZwe">Host Web (Diego)</a></li>
-    </ul>
-</ul>
+* Objective-C: The Big Nerd Ranch Guide
+    * [PDF](https://github.com/xDiegoNunezx/Curso-Objective-C/tree/main/recursos)
+    * <a href="https://fiunamedu-my.sharepoint.com/:b:/g/personal/diego_nunez_fi_unam_edu/Eca9ljkJG2pNmsugS5JElRsBJYQ1onZo0tP1NMJ5tT_Yhg?e=fiVZwe">Host Web (Diego)</a>	
