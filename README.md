@@ -1,6 +1,10 @@
-# Curso-Objective-C
-
-## Día 1
+# Curso-Objective-C 📚
+## Día 1️⃣
+### Temas 
+* Introducción
+* Conociendo Xcode
+* Generalidades del lenguaje
+* Debugger
 * Clases y Objetos
 * Métodos
 * Herencia
@@ -11,17 +15,21 @@ Crear una clase <code>Animal</code>, la cuál tendrá propiedades privadas y pú
 
 Además, crear una clase <code>Perro</code> que herede de <code>Animal</code> y que tenga varios métodos.
 
-## Día 2
+## Día 2 2️⃣
+### Temas 
+* Manejo de memoria
+* Propiedades
+* Bloques
+* Categorías
+* Protocolos
 
+## Día 3️⃣
+### Temas 
+* Diseño de interfaces
 
-
-## Día 3
-
-
-## Día 4
-
-
-## Día 5
+## Día 4️⃣
+### Temas 
+* Utilización de Swift en proyectos de Objective-C
 
 # Recursos 💍
 A continuación se listan los recursos que se utilizaron para el desarrollo de este curso.
