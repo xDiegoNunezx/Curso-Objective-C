@@ -15,16 +15,18 @@ typedef NS_ENUM(NSInteger, operation){
     Division
 };
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController{
+    BOOL _bFirstDigitFilled;
+}
 #pragma Properties
 @property (nonatomic) NSNumber *numberA;
 @property (nonatomic) NSNumber *numberB;
 @property (nonatomic) operation currOperation;
+
 #pragma Outlets
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 
-#pragma IBActions
+#pragma IBActions y Métodos
 - (NSNumber *)multiply:(NSNumber *) a andB: (NSNumber *) b;
 - (NSNumber *)divide:(NSNumber *) a andB: (NSNumber *) b;
 - (NSNumber *)add:(NSNumber *) a andB: (NSNumber *) b;

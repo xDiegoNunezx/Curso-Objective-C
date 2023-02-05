@@ -13,24 +13,19 @@
 
 @implementation ViewController
 
-- (id)initWithCoder:(NSCoder *)decoder
-{
-    self = [super initWithCoder:decoder];
-    if (self) {
-        _numberA = nil;
-        _numberB = nil;
-    }
-    return self;
-}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    _numberA = nil;
+    _numberB = nil;
+    _resultLabel.text = @"0";
+    _bFirstDigitFilled = NO;
+    _currOperation = Ninguna;
 }
 - (NSNumber *)multiply:(NSNumber *)a andB:(NSNumber *)b {
     return @(a.doubleValue * b.doubleValue);
 }
 -(NSNumber *)add:(NSNumber *)a andB:(NSNumber *)b{
-    return @(a.doubleValue * b.doubleValue);
+    return @(a.doubleValue + b.doubleValue);
 }
 
 -(NSNumber *)divide:(NSNumber *)a andB:(NSNumber *)b{
@@ -46,32 +41,62 @@
     if(num == nil){
         _resultLabel.text = @"ERROR";
     }
-    return operation(a,b);
+    return num;
 }
 
 - (IBAction)equalButtonPressed:(UIButton *)sender {
+    // Guarda el número B
+    NSNumberFormatter *f = [NSNumberFormatter new];
+    f.numberStyle = NSNumberFormatterDecimalStyle;
+    NSNumber *numberFromLabelText = [f numberFromString:_resultLabel.text];
+    _numberB = numberFromLabelText;
+    
+    printf("%d %d\n", _numberA.intValue, _numberB.intValue);
+    
     // Caso 1: _numberB es nulo
     if(_numberB == nil){
         _numberB = _numberA;
     }
-    NSNumber * (^oper)(NSNumber *, NSNumber *);
+    
+    NSNumber *result = nil;
     
     switch (_currOperation) {
         case Suma:
-            [self add:_numberA andB:_numberB];
+            result = [self add:_numberA andB:_numberB];
             break;
         case Resta:
-            [self add:_numberA andB:_numberB];
+            result = [self add:_numberA andB:@(_numberB.intValue * -1)];
+            break;
         case Multiplicacion:
-            [self multiply:<#(NSNumber *)#> andB:<#(NSNumber *)#>]
+            result = [self multiply:_numberA andB:_numberB];
+            break;
+        case Division:
+            result = [self divide:_numberA andB:_numberB];
+            break;
         default:
             break;
     }
-    [self makeOperation:_numberA secondNumber:_numberB withOperation:<#^NSNumber *(NSNumber *, NSNumber *)operation#>]
+    
+    if (result == nil){
+        _resultLabel.text = @"!ERROR";
+        return;
+    }
+    
+    _resultLabel.text = [result stringValue];
+    _bFirstDigitFilled = NO;
 }
 
 - (IBAction)operationButtonPressed:(UIButton *)sender {
+    
+    // Guarda el número en A
+    NSNumberFormatter *f = [NSNumberFormatter new];
+    f.numberStyle = NSNumberFormatterDecimalStyle;
+    NSNumber *numberFromLabelText = [f numberFromString:_resultLabel.text];
+    _numberA = numberFromLabelText;
+    
     NSString *operationString = sender.titleLabel.text;
+    printf("%s", [operationString UTF8String]);
+    
     if([operationString isEqualToString:@"+"]){
         _currOperation = Suma;
         return;
@@ -80,7 +105,7 @@
         _currOperation = Division;
         return;
     }
-    if([operationString isEqualToString:@"x"]){
+    if([operationString isEqualToString:@"×"]){
         _currOperation = Multiplicacion;
         return;
     }
@@ -96,29 +121,31 @@
     _numberA = nil;
     _numberB = nil;
     _currOperation = Ninguna;
+    _bFirstDigitFilled = NO;
 }
 
 - (IBAction)numberButtonPressed:(UIButton *)sender {
-    NSString *stringLabelText = sender.titleLabel.text;
-    _resultLabel.text = [_resultLabel.text stringByAppendingString:stringLabelText];
     
-    NSNumberFormatter *f = [NSNumberFormatter new];
-    f.numberStyle = NSNumberFormatterDecimalStyle;
-    NSNumber *numberFromLabelText = [f numberFromString:_resultLabel.text];
-    
-    // Caso 1: Primer número no está lleno:
-    _numberA = @(_resultLabel.text.intValue);
-    printf("%d\n", _numberA.intValue);
-    _resultLabel.text = [_numberA stringValue];
-    return;
-    
-    // Caso 2: Segundo número no está lleno:
-    if(_numberB == nil){
-        _numberB = numberFromLabelText;
+    if([_resultLabel.text isEqualToString:@"!ERROR"]){
+        _resultLabel.text = @"0";
+    }
+    if(_currOperation != Ninguna && !_bFirstDigitFilled){
+        _resultLabel.text = sender.titleLabel.text;
+        _bFirstDigitFilled = YES;
         return;
     }
     
-    printf("%f %f\n",_numberA.doubleValue,_numberB.doubleValue);
+    NSMutableString *stringLabelText = [[NSMutableString alloc] initWithString:_resultLabel.text];
+    [stringLabelText appendString:sender.titleLabel.text];
+    
+    //Convertir result label de string a NSNumber
+    NSNumberFormatter *f = [NSNumberFormatter new];
+    f.numberStyle = NSNumberFormatterDecimalStyle;
+    NSNumber *numberFromLabelText = [f numberFromString:stringLabelText];
+
+    //Asignar ese NSNumber como String al Label
+    _resultLabel.text = [numberFromLabelText stringValue];
+    
 }
 
 
