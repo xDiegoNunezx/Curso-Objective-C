@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7CA89C6298EF6A100582A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CA89C4298EF6A100582A35 /* Main.storyboard */; };
 		F7E04B0A298EF4F4001C53EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E04B09298EF4F4001C53EE /* AppDelegate.m */; };
 		F7E04B0D298EF4F4001C53EE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E04B0C298EF4F4001C53EE /* SceneDelegate.m */; };
 		F7E04B10298EF4F4001C53EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E04B0F298EF4F4001C53EE /* ViewController.m */; };
 		F7E04B15298EF4F6001C53EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E04B14298EF4F6001C53EE /* Assets.xcassets */; };
 		F7E04B18298EF4F6001C53EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E04B16298EF4F6001C53EE /* LaunchScreen.storyboard */; };
 		F7E04B1B298EF4F6001C53EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E04B1A298EF4F6001C53EE /* main.m */; };
+		F7E3680D298F0842005163D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E3680C298F0842005163D8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7CA89C5298EF6A100582A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7E04B05298EF4F4001C53EE /* Calculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E04B08298EF4F4001C53EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7E04B09298EF4F4001C53EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +28,7 @@
 		F7E04B17298EF4F6001C53EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7E04B19298EF4F6001C53EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7E04B1A298EF4F6001C53EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7E3680C298F0842005163D8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				F7E04B0E298EF4F4001C53EE /* ViewController.h */,
 				F7E04B0F298EF4F4001C53EE /* ViewController.m */,
 				F7E04B14298EF4F6001C53EE /* Assets.xcassets */,
-				F7CA89C4298EF6A100582A35 /* Main.storyboard */,
+				F7E3680C298F0842005163D8 /* Main.storyboard */,
 				F7E04B16298EF4F6001C53EE /* LaunchScreen.storyboard */,
 				F7E04B19298EF4F6001C53EE /* Info.plist */,
 				F7E04B1A298EF4F6001C53EE /* main.m */,
@@ -133,7 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7CA89C6298EF6A100582A35 /* Main.storyboard in Resources */,
+				F7E3680D298F0842005163D8 /* Main.storyboard in Resources */,
 				F7E04B18298EF4F6001C53EE /* LaunchScreen.storyboard in Resources */,
 				F7E04B15298EF4F6001C53EE /* Assets.xcassets in Resources */,
 			);
@@ -156,14 +156,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F7CA89C4298EF6A100582A35 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7CA89C5298EF6A100582A35 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7E04B16298EF4F6001C53EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +288,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calculadora/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -323,7 +315,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calculadora/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
