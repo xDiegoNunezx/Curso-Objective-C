@@ -87,7 +87,7 @@
 }
 
 - (IBAction)operationButtonPressed:(UIButton *)sender {
-    
+    _bFirstDigitFilled = NO;
     // Guarda el número en A
     NSNumberFormatter *f = [NSNumberFormatter new];
     f.numberStyle = NSNumberFormatterDecimalStyle;
