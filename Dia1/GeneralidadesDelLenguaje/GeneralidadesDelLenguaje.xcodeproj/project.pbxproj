@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F72E638D298A04AE0057B2A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E638C298A04AE0057B2A9 /* main.m */; };
-		F72E6395298A07330057B2A9 /* Vehiculo.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E6394298A07330057B2A9 /* Vehiculo.m */; };
+		391D770029902E7B0018E883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 391D76FF29902E7B0018E883 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F72E6387298A04AE0057B2A9 /* CopyFiles */ = {
+		391D76FA29902E7B0018E883 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F72E6389298A04AE0057B2A9 /* EjemploClaseCarro */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EjemploClaseCarro; sourceTree = BUILT_PRODUCTS_DIR; };
-		F72E638C298A04AE0057B2A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F72E6393298A04F40057B2A9 /* Vehiculo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehiculo.h; sourceTree = "<group>"; };
-		F72E6394298A07330057B2A9 /* Vehiculo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehiculo.m; sourceTree = "<group>"; };
+		391D76FC29902E7B0018E883 /* GeneralidadesDelLenguaje */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeneralidadesDelLenguaje; sourceTree = BUILT_PRODUCTS_DIR; };
+		391D76FF29902E7B0018E883 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F72E6386298A04AE0057B2A9 /* Frameworks */ = {
+		391D76F929902E7B0018E883 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F72E6380298A04AE0057B2A9 = {
+		391D76F329902E7B0018E883 = {
 			isa = PBXGroup;
 			children = (
-				F72E638B298A04AE0057B2A9 /* EjemploClaseCarro */,
-				F72E638A298A04AE0057B2A9 /* Products */,
+				391D76FE29902E7B0018E883 /* GeneralidadesDelLenguaje */,
+				391D76FD29902E7B0018E883 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F72E638A298A04AE0057B2A9 /* Products */ = {
+		391D76FD29902E7B0018E883 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F72E6389298A04AE0057B2A9 /* EjemploClaseCarro */,
+				391D76FC29902E7B0018E883 /* GeneralidadesDelLenguaje */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F72E638B298A04AE0057B2A9 /* EjemploClaseCarro */ = {
+		391D76FE29902E7B0018E883 /* GeneralidadesDelLenguaje */ = {
 			isa = PBXGroup;
 			children = (
-				F72E638C298A04AE0057B2A9 /* main.m */,
-				F72E6393298A04F40057B2A9 /* Vehiculo.h */,
-				F72E6394298A07330057B2A9 /* Vehiculo.m */,
+				391D76FF29902E7B0018E883 /* main.m */,
 			);
-			path = EjemploClaseCarro;
+			path = GeneralidadesDelLenguaje;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F72E6388298A04AE0057B2A9 /* EjemploClaseCarro */ = {
+		391D76FB29902E7B0018E883 /* GeneralidadesDelLenguaje */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F72E6390298A04AE0057B2A9 /* Build configuration list for PBXNativeTarget "EjemploClaseCarro" */;
+			buildConfigurationList = 391D770329902E7B0018E883 /* Build configuration list for PBXNativeTarget "GeneralidadesDelLenguaje" */;
 			buildPhases = (
-				F72E6385298A04AE0057B2A9 /* Sources */,
-				F72E6386298A04AE0057B2A9 /* Frameworks */,
-				F72E6387298A04AE0057B2A9 /* CopyFiles */,
+				391D76F829902E7B0018E883 /* Sources */,
+				391D76F929902E7B0018E883 /* Frameworks */,
+				391D76FA29902E7B0018E883 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EjemploClaseCarro;
-			productName = EjemploClaseCarro;
-			productReference = F72E6389298A04AE0057B2A9 /* EjemploClaseCarro */;
+			name = GeneralidadesDelLenguaje;
+			productName = GeneralidadesDelLenguaje;
+			productReference = 391D76FC29902E7B0018E883 /* GeneralidadesDelLenguaje */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F72E6381298A04AE0057B2A9 /* Project object */ = {
+		391D76F429902E7B0018E883 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					F72E6388298A04AE0057B2A9 = {
+					391D76FB29902E7B0018E883 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = F72E6384298A04AE0057B2A9 /* Build configuration list for PBXProject "EjemploClaseCarro" */;
+			buildConfigurationList = 391D76F729902E7B0018E883 /* Build configuration list for PBXProject "GeneralidadesDelLenguaje" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = F72E6380298A04AE0057B2A9;
-			productRefGroup = F72E638A298A04AE0057B2A9 /* Products */;
+			mainGroup = 391D76F329902E7B0018E883;
+			productRefGroup = 391D76FD29902E7B0018E883 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F72E6388298A04AE0057B2A9 /* EjemploClaseCarro */,
+				391D76FB29902E7B0018E883 /* GeneralidadesDelLenguaje */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F72E6385298A04AE0057B2A9 /* Sources */ = {
+		391D76F829902E7B0018E883 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72E6395298A07330057B2A9 /* Vehiculo.m in Sources */,
-				F72E638D298A04AE0057B2A9 /* main.m in Sources */,
+				391D770029902E7B0018E883 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F72E638E298A04AE0057B2A9 /* Debug */ = {
+		391D770129902E7B0018E883 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		F72E638F298A04AE0057B2A9 /* Release */ = {
+		391D770229902E7B0018E883 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +235,7 @@
 			};
 			name = Release;
 		};
-		F72E6391298A04AE0057B2A9 /* Debug */ = {
+		391D770429902E7B0018E883 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		F72E6392298A04AE0057B2A9 /* Release */ = {
+		391D770529902E7B0018E883 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -264,25 +258,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F72E6384298A04AE0057B2A9 /* Build configuration list for PBXProject "EjemploClaseCarro" */ = {
+		391D76F729902E7B0018E883 /* Build configuration list for PBXProject "GeneralidadesDelLenguaje" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F72E638E298A04AE0057B2A9 /* Debug */,
-				F72E638F298A04AE0057B2A9 /* Release */,
+				391D770129902E7B0018E883 /* Debug */,
+				391D770229902E7B0018E883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F72E6390298A04AE0057B2A9 /* Build configuration list for PBXNativeTarget "EjemploClaseCarro" */ = {
+		391D770329902E7B0018E883 /* Build configuration list for PBXNativeTarget "GeneralidadesDelLenguaje" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F72E6391298A04AE0057B2A9 /* Debug */,
-				F72E6392298A04AE0057B2A9 /* Release */,
+				391D770429902E7B0018E883 /* Debug */,
+				391D770529902E7B0018E883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F72E6381298A04AE0057B2A9 /* Project object */;
+	rootObject = 391D76F429902E7B0018E883 /* Project object */;
 }
