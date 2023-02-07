@@ -15,7 +15,7 @@ Crear una clase <code>Animal</code>, la cuál tendrá propiedades privadas y pú
 
 Además, crear una clase <code>Perro</code> que herede de <code>Animal</code> y que tenga varios métodos.
 
-## Día 2 2️⃣
+## Día 2️⃣
 ### Temas 
 * Manejo de memoria
 * Propiedades
@@ -45,4 +45,5 @@ A continuación se listan los recursos que se utilizaron para el desarrollo de e
 
 * Objective-C: The Big Nerd Ranch Guide
     * [PDF](https://github.com/xDiegoNunezx/Curso-Objective-C/tree/main/recursos)
-    * <a href="https://fiunamedu-my.sharepoint.com/:b:/g/personal/diego_nunez_fi_unam_edu/Eca9ljkJG2pNmsugS5JElRsBJYQ1onZo0tP1NMJ5tT_Yhg?e=fiVZwe">Host Web (Diego)</a>	
+    * <a href="https://fiunamedu-my.sharepoint.com/:b:/g/personal/diego_nunez_fi_unam_edu/Eca9ljkJG2pNmsugS5JElRsBJYQ1onZo0tP1NMJ5tT_Yhg?e=fiVZwe">Host Web (Diego)</a>
+    * <a href="https://cloudflare-ipfs.com/ipfs/bafykbzacec6ephme2ckyk3m3x4xtawzunhqkb7zxvytnbqr53aidppvukw6nu?filename=objective-c-fundamentals-christopher-fairbairn-1--annas-archive--libgenrs-nf-761035.pdf">Objective C Fundamentals</a>	
