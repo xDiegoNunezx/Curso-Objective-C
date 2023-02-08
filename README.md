@@ -35,9 +35,9 @@ Además, crear una clase <code>Perro</code> que herede de <code>Animal</code> y 
 
 El proyecto final consiste en añadir algunos IBOutlets y IBActions para la calculadora proporcionada en storyboard.
 
-<center>
+<div align="center">
 <img src="img/simulator_screenshot_56FF3B0E-470D-44F5-AE2B-7269B763F84B.png" alt="Girl in a jacket" height="400">
-</center>
+</div>
 
 
 # Forma de evaluación 📝
