@@ -1,5 +1,5 @@
 # Curso-Objective-C 📚
-## Día 1️⃣
+## Día 1 ✅
 ### Temas 
 * Introducción
 * Conociendo Xcode
