@@ -31,6 +31,31 @@ Además, crear una clase <code>Perro</code> que herede de <code>Animal</code> y 
 ### Temas 
 * Utilización de Swift en proyectos de Objective-C
 
+# Proyecto Final 📱
+
+El proyecto final consiste en añadir algunos IBOutlets y IBActions para la calculadora proporcionada en storyboard.
+
+<center>
+<img src="img/simulator_screenshot_56FF3B0E-470D-44F5-AE2B-7269B763F84B.png" alt="Girl in a jacket" height="400">
+</center>
+
+
+# Forma de evaluación 📝
+
+<center>
+
+| **Actividad** | **Porcentaje** |
+| --- | :---: |
+| Proyecto Final | 50% |
+| Tareas  | 40% |
+| Participación | 10% |
+
+</center>
+
+# Presentación 🎬
+
+En la carpeta de <a href="https://github.com/xDiegoNunezx/Curso-Objective-C/tree/main/recursos">/recursos 📁</a> podrás encontrar la presentación ocupada durante todo el curso.
+
 # Recursos 💍
 A continuación se listan los recursos que se utilizaron para el desarrollo de este curso.
 
