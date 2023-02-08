@@ -12,13 +12,14 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // Vehiculo
         
-        Vehiculo *ferrari = [[Vehiculo alloc] init];
+        Vehiculo *ferrari = [Vehiculo new];
         NSLog(@"%d",[ferrari anio]);
         Vehiculo *bochido = [Vehiculo vehiculo];
+        // anio bocho = 1990
         
         // Usar setters y getters
-        [bochido setNumLlantas:3 yMatricula:@"737-SAW" yAnio:2001];
-        [ferrari setNumLlantas:4 yMatricula:@"666-DIN" yAnio:2021];
+        [bochido setNumLlantas:4 yMatricula:@"822-MAS" yAnio:1992];
+        
         
         // Info
         [bochido imprimirInfo];

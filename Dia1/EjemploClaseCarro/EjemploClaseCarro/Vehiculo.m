@@ -13,14 +13,11 @@
     if (!self) {
         return nil;
     }
-    anio = 1990; // valor por default
+    anio = 1990; // valor por default Vehiculo *bocho = [[Vehiculo alloc] init] = [Vehiculo new
     return self;
 }
 
 - (void) imprimirInfo {
-    if (!matricula) {
-        return;
-    }
     printf("Información carro:\n");
     printf("Año: %d\n", anio);
     printf("Llantas: %ld\n", (long)numLlantas);
@@ -40,4 +37,5 @@
 + (Vehiculo *) vehiculo {
     return [[Vehiculo alloc] init];
 }
+
 @end
