@@ -41,6 +41,7 @@ El proyecto final consiste en añadir algunos IBOutlets y IBActions para la calc
 
 
 # Forma de evaluación 📝
+<div align="center">
 
 <center>
 
@@ -51,6 +52,7 @@ El proyecto final consiste en añadir algunos IBOutlets y IBActions para la calc
 | Participación | 10% |
 
 </center>
+</div>
 
 # Presentación 🎬
 
