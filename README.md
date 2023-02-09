@@ -33,7 +33,7 @@ Además, crear una clase <code>Perro</code> que herede de <code>Animal</code> y 
 A la clase <code>Animal</code>,<code>Perro</code>, o <code>Gato</code> agregarle al menos dos categorías, estas deberán estar en un archivo <i>NombreClaseBase+Categoría.h</i> y <i>NombreClaseBase+Categoría.m</i> separado.
 
 
-## Día ✅
+## Día 4 ✅
 ### Temas 
 * Diseño de interfaces
 
