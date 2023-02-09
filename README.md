@@ -15,7 +15,7 @@ Crear una clase <code>Animal</code>, la cuál tendrá propiedades privadas y pú
 
 Además, crear una clase <code>Perro</code> que herede de <code>Animal</code> y que tenga varios métodos.
 
-## Día 2️⃣
+## Día 2 ✅
 ### Temas 
 * Manejo de memoria
 * Propiedades
