@@ -9,7 +9,7 @@
 * Métodos
 * Herencia
 
-**Ejercicio**: 
+**Ejercicio**
 
 Crear una clase <code>Animal</code>, la cuál tendrá propiedades privadas y públicas. Crear una clase <code>Gato</code> que herede de <code>Animal</code> y que tenga varios métodos.
 
@@ -22,6 +22,11 @@ Además, crear una clase <code>Perro</code> que herede de <code>Animal</code> y 
 * Bloques
 * Categorías
 * Protocolos
+
+**Ejercicio**
+
+A la clase <code>Animal</code>,<code>Perro</code>, o <code>Gato</code> agregarle al menos dos categorías, estas deberán estar en un archivo <i>NombreClaseBase+Categoría.h</i> y <i>NombreClaseBase+Categoría.m</i> separado.
+
 
 ## Día 3️⃣
 ### Temas 
