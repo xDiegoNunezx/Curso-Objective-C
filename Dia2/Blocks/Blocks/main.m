@@ -49,7 +49,6 @@ int main(int argc, const char * argv[]) {
             NSLog(@"%d", unEntero);
             unEntero++;
             NSLog(@"%d", unEntero);
-            
         };
         
         testBlock();
@@ -70,6 +69,7 @@ int main(int argc, const char * argv[]) {
         [videojuegos enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             NSLog(@"Videojuego 🎮: %@",(NSString *) obj);
         }];
+    
         
         // Probar bloques 'asíncrono'
         Tester *tester = [Tester new]; // [[Tester alloc] init]
