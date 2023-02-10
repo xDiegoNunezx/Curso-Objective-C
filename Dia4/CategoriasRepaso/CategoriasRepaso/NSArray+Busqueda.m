@@ -1,14 +1,13 @@
 //
-//  NSArray+Ordenamiento.m
+//  NSArray+Busqueda.m
 //  CategoriasRepaso
 //
 //  Created by Aldo Navarrete on 10/02/23.
 //
 
-#import "NSArray+Ordenamiento.h"
+#import "NSArray+Busqueda.h"
 
-@implementation NSArray (Ordenamiento)
-
+@implementation NSArray (Busqueda)
 -(void) busquedaLineal:(NSString *) elemento {
     for(int i=0 ; i < self.count ; i++){
         if([self[i] isEqualToString:elemento]){
@@ -18,5 +17,4 @@
     }
     printf("No encontre el elemento %s\n", [elemento UTF8String]);
 }
-
 @end

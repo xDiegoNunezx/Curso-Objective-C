@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F73373B52996CE8D00D8CED2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F73373B42996CE8D00D8CED2 /* main.m */; };
-		F73373BD2996CEAA00D8CED2 /* NSArray+Ordenamiento.m in Sources */ = {isa = PBXBuildFile; fileRef = F73373BC2996CEAA00D8CED2 /* NSArray+Ordenamiento.m */; };
+		F741604C2996E53500A19513 /* NSArray+Busqueda.m in Sources */ = {isa = PBXBuildFile; fileRef = F741604B2996E53500A19513 /* NSArray+Busqueda.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		F73373B12996CE8D00D8CED2 /* CategoriasRepaso */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CategoriasRepaso; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73373B42996CE8D00D8CED2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F73373BB2996CEAA00D8CED2 /* NSArray+Ordenamiento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Ordenamiento.h"; sourceTree = "<group>"; };
-		F73373BC2996CEAA00D8CED2 /* NSArray+Ordenamiento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ordenamiento.m"; sourceTree = "<group>"; };
+		F741604A2996E53500A19513 /* NSArray+Busqueda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Busqueda.h"; sourceTree = "<group>"; };
+		F741604B2996E53500A19513 /* NSArray+Busqueda.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Busqueda.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F73373B42996CE8D00D8CED2 /* main.m */,
-				F73373BB2996CEAA00D8CED2 /* NSArray+Ordenamiento.h */,
-				F73373BC2996CEAA00D8CED2 /* NSArray+Ordenamiento.m */,
+				F741604A2996E53500A19513 /* NSArray+Busqueda.h */,
+				F741604B2996E53500A19513 /* NSArray+Busqueda.m */,
 			);
 			path = CategoriasRepaso;
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73373B52996CE8D00D8CED2 /* main.m in Sources */,
-				F73373BD2996CEAA00D8CED2 /* NSArray+Ordenamiento.m in Sources */,
+				F741604C2996E53500A19513 /* NSArray+Busqueda.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

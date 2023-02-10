@@ -8,15 +8,14 @@
 
 @implementation Calculadora
 
-- (NSNumber *) operate:(NSNumber *)a
-                  yB:(NSNumber *)b
+- (NSNumber *) operateA:(NSNumber *)a
+                  andB:(NSNumber *)b
          withOperation:(NSNumber * (^)(NSNumber *, NSNumber *)) operation {
-    
     NSNumber *result = operation(a,b);
-    if(result != nil){
-        return result;
+    if(result == nil){
+        return nil;
     }
-    return nil;
+    return result;
 }
 
 @end

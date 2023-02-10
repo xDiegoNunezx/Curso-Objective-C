@@ -1,5 +1,5 @@
 //
-//  NSArray+Ordenamiento.h
+//  NSArray+Busqueda.h
 //  CategoriasRepaso
 //
 //  Created by Aldo Navarrete on 10/02/23.
@@ -9,7 +9,7 @@
 
 
 
-@interface NSArray (Ordenamiento)
+@interface NSArray (Busqueda)
 -(void) busquedaLineal:(NSString *) elemento;
 @end
 

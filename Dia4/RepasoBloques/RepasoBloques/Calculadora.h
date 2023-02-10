@@ -8,8 +8,8 @@
 
 @interface Calculadora : NSObject
 
-- (NSNumber *) operate:(NSNumber *)a
-                  yB:(NSNumber *)b
+- (NSNumber *) operateA:(NSNumber *)a
+                  andB:(NSNumber *)b
          withOperation:(NSNumber * (^)(NSNumber *, NSNumber *)) operation;
 
 @end
