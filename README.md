@@ -26,18 +26,19 @@ Además, crear una clase <code>Perro</code> que herede de <code>Animal</code> y 
 * Propiedades
 * Bloques
 * Categorías
-* Protocolos
 
 **Ejercicio**
 
 A la clase <code>Animal</code>,<code>Perro</code>, o <code>Gato</code> agregarle al menos dos categorías, estas deberán estar en un archivo <i>NombreClaseBase+Categoría.h</i> y <i>NombreClaseBase+Categoría.m</i> separado.
 
 
-## Día 4 ✅
+## Día 3 ✅
 ### Temas 
 * Diseño de interfaces
+* Protocolos
+* Delegation
 
-## Día 4️⃣
+## Día 4 ✅
 ### Temas 
 * Utilización de Swift en proyectos de Objective-C
 
